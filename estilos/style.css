@@ -43,7 +43,7 @@ a:hover{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
 
     background-color:var(--cor04);
     width: 18.8rem;
@@ -53,6 +53,7 @@ a:hover{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
     transition: width 0.3s ease;
+    transform: translate(-50%, -50%);
     
 }
 
@@ -77,7 +78,7 @@ a:hover{
 }
 
 .campo-1, .campo-2{
-    border: none
+    border: none;
     
 }
 
@@ -98,6 +99,14 @@ a:hover{
 .campo-1 > input{
     padding: 12px;
     border: none;
+}
+
+.campo-1, .campo-2 > input{
+    border-radius: 4px;
+}
+
+.campo-1, .campo-2 > input:focus-within{
+    background-color: beige;
 }
 
 
