@@ -47,7 +47,7 @@ a:hover{
 
     background-color:var(--cor04);
     width: 17.8rem;
-    height: 31.60rem;
+    height: 32.90rem;
     border-radius: 1.25rem;
     overflow: clip;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -78,11 +78,13 @@ a:hover{
 
 .campo-1, .campo-2{
     border: none
+    
 }
 
 .campo-1 > label > .person-pin{
     cursor: pointer;
     margin-left: 20px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.445));
 }
 
 .campo-1 > input{
@@ -94,7 +96,7 @@ a:hover{
 .campo-2 > label > .pass-key{
     cursor: pointer;
     margin-left: 20px;
-    
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
 }
 
 .campo-2 > input{
@@ -122,7 +124,7 @@ form > input[type=submit]:active{
 
 form > .botao{
     display: block;
-    margin-top: 2px;
+    margin-top: 4px;
     text-align: center;
     text-decoration: none;
     font-size: 1em;
@@ -134,11 +136,13 @@ form > .botao{
     border-radius: 20px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    
 
 }
 
 form > .botao:active{
     transform: scale(0.95);
+    
 
 }
 
@@ -148,7 +152,7 @@ form > .botao:active{
     
     height: 50px;
     width: 72px;
-
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.781));
 }
 
     
